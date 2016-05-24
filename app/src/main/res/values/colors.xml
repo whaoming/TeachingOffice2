@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="titleBlue">#4876FF</color><!--天兰色 -->
+    <color name="gray">#808080</color><!--灰色 -->
+    <color name="text_like_counter">#2b5a83</color>
+
+    <color name="dark">#FF222222</color>
+    <color name="light">#FFEEEEEE</color>
+
+    <color name="ltgray">#FFCCCCCC</color>
+
+    <color name="color1">#ff0f9d58</color>
+    <color name="color2">#ffdb4437</color>
+    <color name="color3">#ff4285f4</color>
+    <color name="color4">#fff4b400</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

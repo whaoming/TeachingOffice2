@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/titleBlue"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+
+    <LinearLayout
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical|left"
+        android:orientation="vertical" >
+
+        <!-- com.wxxiaomi.myschool.view.custom.CircularImageView
+
+        <com.wxxiaomi.myschool.view.custom.CircularImageView
+            
+            android:id="@+id/iv_head"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:src="@drawable/tou" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical|left"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/header_tv"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="王浩明" />
+    </LinearLayout>
+
+</LinearLayout>

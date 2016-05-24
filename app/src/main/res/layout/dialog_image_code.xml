@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/demo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <FrameLayout
+            android:id="@+id/fl_pb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:id="@+id/pb_pb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:indeterminate="true"
+                style="?android:attr/progressBarStyleSmall"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:visibility="invisible"
+            android:id="@+id/fl_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:background="#000000"
+            android:id="@+id/iv_iv"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+        </FrameLayout>
+    </RelativeLayout>
+
+<EditText
+    android:layout_below="@+id/demo"
+    android:id="@+id/et"
+    android:hint="请输入验证码"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

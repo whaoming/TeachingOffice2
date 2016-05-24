@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+   <group
+        android:checkableBehavior="single">
+ 
+        <item
+            android:id="@+id/drawer_home"
+            android:icon="@mipmap/ic_menu_index"
+            android:title="首页"/>
+ 
+ 
+        <item
+            android:id="@+id/section"
+            android:icon="@mipmap/ic_menu_next"
+            android:title="正方系统">
+            <menu>
+                <item
+                    android:id="@+id/drawer_classform"
+                    android:icon="@mipmap/ic_menu_favorite"
+                    android:title="课表查询"/> 
+                <item
+                    android:id="@+id/drawer_score"
+                    android:icon="@mipmap/ic_menu_user"
+                    android:title="成绩查询"/>
+                <item
+                    android:id="@+id/drawer_elective"
+                    android:icon="@mipmap/ic_menu_favorite"
+                    android:title="选课情况"/>
+            </menu>
+        </item>
+ 
+        <item
+            android:id="@+id/section2"
+            android:title="图书馆">
+            <menu>
+                <item
+                    android:id="@+id/drawer_lib_search"
+                    android:icon="@mipmap/ic_menu_settings"
+                    android:title="馆藏搜索"/>
+ 
+                <item
+                    android:id="@+id/drawer_lib_borrow_state"
+                    android:icon="@mipmap/ic_menu_settings"
+                    android:title="借阅情况"/>
+            </menu>
+        </item>
+ 
+ 
+    </group>
+</menu>

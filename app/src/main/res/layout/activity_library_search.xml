@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="56dp"
+       >
+
+
+      <android.support.v7.widget.Toolbar
+
+          android:id="@+id/toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/titleBlue"
+          android:minHeight="?attr/actionBarSize"
+          />
+      <EditText
+          android:id="@+id/et_serach"
+          android:imeOptions="actionSearch"
+          android:singleLine="true"
+          android:maxLines="1"
+          android:hint="请输入地点"
+          android:layout_marginLeft="50dp"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_toLeftOf="@+id/button" />
+
+      <Button
+
+          android:layout_alignParentRight="true"
+          android:text="查找"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:id="@+id/btn_ok" />
+   </RelativeLayout>
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/listView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:cacheColorHint="@null"
+       android:scrollbars="none" />
+
+</LinearLayout>

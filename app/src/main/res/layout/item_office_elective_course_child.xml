@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20000000"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:padding="3dp" >
+
+    <TextView
+        android:layout_margin="1dp"
+        android:textSize="14sp"
+        android:id="@+id/tv_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+         android:layout_margin="1dp"
+        android:textSize="14sp"
+        android:id="@+id/tv_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <TextView
+         android:layout_margin="1dp"
+        android:textSize="14sp"
+        android:id="@+id/tv_teaName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <TextView
+         android:layout_margin="1dp"
+        android:textSize="14sp"
+        android:id="@+id/tv_creait"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    <TextView
+         android:layout_margin="1dp"
+        android:textSize="14sp"
+        android:id="@+id/tv_weekTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+</LinearLayout>
+</RelativeLayout>

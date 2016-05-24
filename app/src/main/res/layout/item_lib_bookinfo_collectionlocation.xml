@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="10dp"
+    android:background="#000000"
+    android:stretchColumns="0,1,2,3" >
+
+    <TableRow
+        android:layout_margin="0.5dip"
+        android:background="#ffffcc99" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFCD6B"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="馆藏"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:padding="3dp"
+            android:text="jjjj"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="0.5dip"
+        android:background="#ffffcc99" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFCD6B"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="索取号"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:padding="3dp"
+            android:text="jjjj"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="0.5dip"
+        android:background="#ffffcc99" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFCD6B"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="登录号"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_loginnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:padding="3dp"
+            android:text="jjjj"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="0.5dip"
+        android:background="#ffffcc99" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFCD6B"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="状态"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:padding="3dp"
+            android:text="jjjj"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="0.5dip"
+        android:background="#ffffcc99" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFCD6B"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="借阅类型"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:padding="3dp"
+            android:text="jjjj"
+            android:textSize="18sp" />
+    </TableRow>
+
+</TableLayout>
